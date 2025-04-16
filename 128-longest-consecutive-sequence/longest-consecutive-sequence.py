@@ -4,7 +4,6 @@ class Solution:
             return 0
         nums = set(nums)  
         longest = 1
-        cnt = 1
         for x in nums:
             if x - 1 not in nums:
                 cnt = 1
